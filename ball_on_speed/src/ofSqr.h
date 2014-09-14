@@ -15,25 +15,18 @@
 class ofSqr{
     
 public:
-    
-    void update();
-    
+	
+    ofSqr();
+	
     void draw();
+    void interpolateByPct(float myPct);
     
-        ofSqr();
+    ofPoint		pos;
     
-    float x;
-    float y;
-    float speedY;
-    float speedX;
-    int w;
-    int h;
-   
+    ofPoint		posa;
+    ofPoint		posb;
     
-
-    
-    private:
-    
+    float		pct;	// what pct are we between "a" and "b"
 
 };
 

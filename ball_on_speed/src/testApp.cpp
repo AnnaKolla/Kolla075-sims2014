@@ -1,21 +1,35 @@
 #include "testApp.h"
-
+#include "ofMain.h"
 
 //--------------------------------------------------------------
 void testApp::setup(){
     
+    vagRounded.loadFont("vag.ttf", 32);
+    
     ofBackground(0,0,0);
-	ofSetFrameRate(60);
-	ofSetWindowTitle("sqr - class example_1");
-	
-	ofEnableSmoothing();
-	ofNoFill();
+	ofSetVerticalSync(true); //slows down animation
+    
+    mySqr.posa.x = 10;
+	mySqr.posa.y = 500;
+	mySqr.posb.x = 1014;
+	mySqr.posb.y = 500;
+	mySqr.interpolateByPct(0);	// start at 0 pct
+	pct = 0;
+    
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
     
-    mySqr.update();
+    // to see pct in the console
+	printf("%f \n", pct);
+    
+	pct += 0.01f;							// increase by a certain amount
+	if (pct > 1) {
+		pct = 0;							// just between 0 and 1 (0% and 100%)
+	}
+    
+	mySqr.interpolateByPct(pct);		// go between pta and ptb
 
 }
 
@@ -23,6 +37,9 @@ void testApp::update(){
 void testApp::draw(){
     
     mySqr.draw();
+    
+    ofSetColor(255,122,220);
+    vagRounded.drawString(eventString, 98,198);
 }
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
@@ -46,6 +63,13 @@ void testApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void testApp::mousePressed(int x, int y, int button){
+    
+    int ti = ofGetElapsedTimeMillis();
+    ofstream myfile;
+    myfile.open ("test.txt");
+    myfile << ti; //writes to txt time user pressed - i.e response time
+    myfile.close();
+    //sprintf(eventString,"%i",ti, 20, 20, 320);
 
 }
 

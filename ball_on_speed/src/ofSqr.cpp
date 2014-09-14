@@ -10,43 +10,23 @@
 
 ofSqr::ofSqr(){
     
-    x = 0;      // give some random positioning
-    y = ofGetHeight()/2;
-    
-    speedX = 1;
-    //speedY = 1;
-    
-    w = 100;
-    h = 100;
-
+ 
 }
 
-
-void ofSqr::update(){
-    
-    if(x < 0 ){
-        x = 0;
-        speedX *= -1;
-    } else if(x > ofGetWidth()){
-        x = ofGetWidth();
-        speedX *= -1;
-    }
-    
-    if(y < 0 ){
-        y = 0;
-        speedY *= -1;
-    } else if(y > ofGetHeight()){
-        y = ofGetHeight();
-        speedY *= -1;
-    }
-    
-    x+=speedX;
-    y+=speedY;
-}
 
 void ofSqr::draw(){
     
-    ofSetColor(150);
+    ofSetColor(255,0,0);
     ofFill();
-    ofRect(x, y, w, h);
+    ofSetRectMode(OF_RECTMODE_CENTER); // center around the position
+    ofRect(pos.x, pos.y, 50, 50);
+}
+
+void ofSqr::interpolateByPct(float myPct){
+	
+    pct = myPct;
+	pos.x = (1-pct) * posa.x + (pct) * posb.x;
+	pos.y = (1-pct) * posa.y + (pct) * posb.y;
+	
+	
 }
