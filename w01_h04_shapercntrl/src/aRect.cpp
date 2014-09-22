@@ -9,6 +9,7 @@
 #include "aRect.h"
 
 aRect::aRect(){
+    
 	shaper = 0.5;
     
 }
@@ -17,9 +18,10 @@ aRect::aRect(){
 void aRect::draw(float sizex, float sizey) {
     
 	ofFill();
-    
+
 	ofSetRectMode(OF_RECTMODE_CENTER); // center around the position
-    //ofSetColor(255,0,135);
+    ofSetColor(r,g,b);
+    
     ofRect(pos.x, pos.y, sizex, sizey);
 }
 
@@ -28,11 +30,13 @@ void aRect::draw(float sizex, float sizey) {
 void aRect::interpolateByPct(float myPct){
 	
 	
-	// powf (2, 3) = 8
+	//powf (2, 3) = 8
 	
 	pct = powf(myPct, shaper);
+    
 	pos.x = (1-pct) * posa.x + (pct) * posb.x;
-	pos.y = (1-pct) * posa.y + (pct*2) * posb.y;
+	pos.y = (1-pct) * posa.y + (pct) * posb.y;
     
     
 }
+

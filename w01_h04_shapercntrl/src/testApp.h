@@ -28,6 +28,9 @@ class testApp : public ofBaseApp{
     float pct;
     float sizex;
     float sizey;
+    float r;
+    float g;
+    float b;
     
    // Tweenzor::add ( &lerpAmount , lerpAmount, 1.0f , 0.0f , 1.0f , EASE_OUT_QUAD);
     

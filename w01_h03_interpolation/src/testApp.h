@@ -31,6 +31,7 @@ class testApp : public ofBaseApp {
 		void gotMessage(ofMessage msg);
     
        ofSqr mySqr;
+   
     float pct;
     
 

@@ -28,12 +28,12 @@ void testApp::update(){
     // to see pct in the console
 //	printf("%f \n", pct);
 //    
-//	pct += 0.035f;							// increase by a certain amount
-//	if (pct > 1) {
-//		pct = 0;							// just between 0 and 1 (0% and 100%)
+	pct += 0.035f;							// increase by a certain amount
+	if (pct > 1) {
+		pct = 0;							// just between 0 and 1 (0% and 100%)
     
     
-//	}
+  }
     
     pct = (float) mouseY / (float) ofGetHeight();
     

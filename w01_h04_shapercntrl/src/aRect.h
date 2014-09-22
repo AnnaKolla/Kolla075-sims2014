@@ -19,8 +19,9 @@ public:
 	
     aRect();
 	
-    void draw (float sizex , float sizey);
+    void draw (float sizex , float sizey); //why there and not below?
     void interpolateByPct(float myPct);
+   
     
     ofPoint		pos;
     ofPoint		posa;
@@ -28,6 +29,10 @@ public:
     float		pct;	// what pct are we between "a" and "b"
     float		shaper;
     //float       size;
+
+    float r;
+    float g;
+    float b;
     
    
 	

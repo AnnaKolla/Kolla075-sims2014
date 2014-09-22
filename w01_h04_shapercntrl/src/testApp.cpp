@@ -17,8 +17,11 @@ void testApp::setup(){
 	myArect[i].posa.y = 10 + i*20;
 	myArect[i].posb.x = 400;
 	myArect[i].posb.y = 10 + i*10;
-    myArect[i].shaper = 0.4 + 0.1 * i;  //why the plus?
-    
+    myArect[i].shaper = 0.5 + 0.1 * i;  //why the plus?
+    myArect[i].r = 255;
+    myArect[i].g = 10 * i;
+    myArect[i].b = 20 * i;
+   
 	myArect[i].interpolateByPct(0);	// start at 0 pct
     }
 	pct = 0;
@@ -44,36 +47,19 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::draw(){
     
-    
-    for (int i = 0; i < 255; i++){
-        
-        ofSetColor(pct*1000,i*pct,i);
-        
 
-        
-    }
     
     for (int i = 0; i < 10; i++){
     
       
-        
         float sizex = 10+(i*5);
         float sizey = 10+(i*5);
         myArect[i].draw(sizex,sizey);
-        
-    
+        ofSetColor(r,g,b);               //color individual blocks
         
         
     }
-    
-    for (int i = 0; i < 255; i++){
-        
-        ofSetColor(255,0,0);
-        
-      
-   
-    }
-    
+
     
     
 
