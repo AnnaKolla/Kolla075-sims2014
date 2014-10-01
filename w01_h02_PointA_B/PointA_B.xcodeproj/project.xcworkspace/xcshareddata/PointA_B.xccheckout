@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67499449-4E1B-4C90-9A4F-350C151F3B48</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PointA_B</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>66FF39F1-4984-45B9-9F0C-5FC5ADC24A62</key>
+		<string>https://github.com/AnnaKolla/Kolla075-sims2014.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>w01_h02_PointA_B/PointA_B.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>66FF39F1-4984-45B9-9F0C-5FC5ADC24A62</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AnnaKolla/Kolla075-sims2014.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>66FF39F1-4984-45B9-9F0C-5FC5ADC24A62</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>66FF39F1-4984-45B9-9F0C-5FC5ADC24A62</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kolla075-sims2014</string>
+		</dict>
+	</array>
+</dict>
+</plist>

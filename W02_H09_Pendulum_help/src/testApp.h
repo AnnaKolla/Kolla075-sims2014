@@ -31,6 +31,11 @@ public:
     float lenght;
     float angleChange;
     
+    float aVelocity;     // Angle velocity
+    float aAcceleration; // Angle acceleration
+    float damping;
+    
+    
 //    ofPoint origin;
 //    ofPoint bob;
 //    ofPoint velocity;

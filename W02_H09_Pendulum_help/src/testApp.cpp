@@ -56,10 +56,10 @@ void testApp::draw(){
     temp.x = x;
     temp.y = y;
     
-//    points.push_back(temp);
-//	if (points.size() > 30){
-//		points.erase(points.begin());
-//	}
+    points.push_back(temp);
+	if (points.size() > 30){
+		points.erase(points.begin());
+	}
     
     ofSetRectMode(OF_RECTMODE_CENTER);
 	ofSetColor(255,0,0);
