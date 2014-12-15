@@ -6,8 +6,8 @@ After many days of struggling I found this addon that loads 3D images and applie
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/Don1.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/don2.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/don3.png)
-![alt tag](https://github.com/AnnaKolla/Images/blob/master/don4.png)
+
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/don5.png)
 
-![alt tag](https://github.com/AnnaKolla/Images/blob/master/con.png
+![alt tag](https://github.com/AnnaKolla/Images/blob/master/con.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/con1.png)
