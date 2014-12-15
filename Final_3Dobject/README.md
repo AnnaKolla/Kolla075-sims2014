@@ -2,6 +2,10 @@
 For my final i wanted to add a texture and a shader to an irregular mesh. I had a long struggle trying to find the right mathematical equation to map the texture to the many faces of the mesh. 
 After many days of struggling I found this addon that loads 3D images and applied the shader, noise and texture to the model. 
 
+
+Video can be found here :http://youtu.be/27ToZvYycWo
+Another video can be found here:http://youtu.be/rkSHey-U0_Q 
+
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/don.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/Don1.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/don2.png)
