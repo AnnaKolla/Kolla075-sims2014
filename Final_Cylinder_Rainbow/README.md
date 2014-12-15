@@ -3,6 +3,8 @@ Here i managed to change the colors of the 3D object, but still haven't managed 
 
 The object has noise added to it and it increases with mouse movement. 
 
+The video can be found here: http://youtu.be/fqnp1nJ3nvk 
+
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/rbow3.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/rbow4.png)
 ![alt tag](https://github.com/AnnaKolla/Images/blob/master/rbow5.png)
